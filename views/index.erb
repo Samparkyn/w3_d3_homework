@@ -1,0 +1,13 @@
+<h1>Shoo Orders</h1>
+
+<% @shoes.each do |shoe| %>
+
+  <b>Name :</b>
+  <p><%= shoe.space_between_names() %></p>
+
+  <b>Order Total :</b>
+  <p> <%= shoe.total() %></p>
+
+<hr>
+
+<% end %>
